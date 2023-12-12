@@ -4,7 +4,7 @@ import { useState } from "react";
 import { saveAs } from "file-saver";
 
 const Footer = () => {
-  const [fileUrl, setFileUrl] = useState("/cv/Raneem-Al-Jamal-CV-2023.pdf");
+  const [fileUrl, setFileUrl] = useState("/cv/Raneem Al Jamal CV 2023.pdf");
 
   const saveFile = async () => {
     try {

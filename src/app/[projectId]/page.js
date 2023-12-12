@@ -59,7 +59,7 @@ const projectsData = [
         id: '5',
         title: 'My Portfolio',
         details: 'Portfolio built with Nextjs',
-        imageArray: ['/zone1.png','/portfolio2.png', '/portfolio3.png', '/portfolio4.png'],
+        imageArray: ['/portfolio1.png','/portfolio2.png', '/portfolio3.png', '/portfolio4.png'],
         moreDetails: 'I made my first project using Next.js to learn new technology. It\'s a portfolio where I share my recent projects with pictures and explanations.I also talk about my skills in coding and a bit about myself.In addition to a section that summarizes my experience and education.You can also get my CV to see my skills, links, work experiences, and education.'
 
     },
