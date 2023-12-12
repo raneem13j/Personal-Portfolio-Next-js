@@ -603,6 +603,9 @@ body{
     font-size: 20px;
     color: #fec576 ;
   }
+  .footer-text1{
+  font-size: 12px;
+  }
   .footer-container-link{
     padding: 0;
   }
@@ -610,7 +613,7 @@ body{
     text-decoration: none;
     color:white;
     font-size: 12px;
-    padding: 15px;
+    padding: 10px;
    }
   .singleproject-image{
     width:300px;
@@ -620,7 +623,7 @@ body{
     padding-left: 30px;
   }
   .main-singleproject-container-title p{
-    font-size: 26px;
+    font-size: 22px;
     padding-left: 30px;
   }
 }
