@@ -44,7 +44,7 @@ const ContactUs = () =>{
             id: "6",
             icon: <><FaMapMarkedAlt/></>,
             link: "#",
-            social: "Bierut, Lebanon"
+            social: "Beirut, Lebanon"
         },
       ];
   return (
