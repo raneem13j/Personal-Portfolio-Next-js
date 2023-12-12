@@ -40,7 +40,7 @@ const slideData = [
     index: "5",
     headline: "My Portfolio",
     button: 'Show Detalis',
-    src:'/cardsy1.png'
+    src:'/portfolio1.png'
   }
 ];
 
