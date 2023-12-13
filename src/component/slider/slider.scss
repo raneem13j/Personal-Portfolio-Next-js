@@ -269,6 +269,21 @@
   from { opacity: 0 }
   to   { opacity: 1 }
 }
+@media screen and (max-width:1350px){
+
+  .slider {
+    --slide-size: 55vmin;
+    --slide-margin: 4vmin;
+    
+    height: var(--slide-size);
+    margin: 0 auto;
+    position: relative;
+    width: var(--slide-size);
+  }
+
+}
+
+
 
 @media screen and (max-width:700px) {
   .btn {
@@ -278,5 +293,29 @@
   .slide__headline {
     font-size: 5vmin;
   }
+  .slider {
+    --slide-size: 60vmin;
+    --slide-margin: 4vmin;
+    
+    height: var(--slide-size);
+    margin: 0 auto;
+    position: relative;
+    width: var(--slide-size);
+  }
 
 }
+@media screen and (max-width:350px) {
+  .slider {
+    --slide-size: 65vmin;
+    --slide-margin: 4vmin;
+    
+    height: var(--slide-size);
+    margin: 0 auto;
+    position: relative;
+    width: var(--slide-size);
+  }
+  
+}
+
+
+

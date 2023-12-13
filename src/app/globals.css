@@ -103,7 +103,7 @@ body{
   color: #fec576;
   font-weight: 400;
   margin: 0 !important;
-  padding: 25px 0 25px 230px;
+  padding: 30px 0 30px 230px;
 }
 .experience-square{
   display: flex;
@@ -341,6 +341,45 @@ body{
   background-color: #fec576;
   color:#303451;
 }
+@media screen and (max-width:1350px){
+  .profile-image1{
+    width:450px;
+    height: 250px;
+  }
+  .experience-details h3 {
+    
+    padding: 25px 0 25px 80px;
+  }
+  .main-skills-container-title h2{
+    
+    padding-left: 80px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .main-projects-container-title h2{
+    padding-left: 80px;
+  }
+  .main-projects-container-title p{
+    font-size: 34px;
+    padding-left: 80px;
+    margin: 0 !important;
+  }
+  .contact-main-container h2{
+    padding-left: 80px;
+  }
+  .contact-main-container p{
+    font-size: 34px;
+    padding-left: 80px;
+  }
+
+}
 @media screen and (max-width:1215px){
   .main-singleproject-container-title h2{
     padding-left: 80px;
@@ -377,7 +416,7 @@ body{
   }
   .experience-details h3 {
     
-    padding: 17px 0 17px 80px;
+    padding: 25px 0 25px 80px;
   }
   .experience-square{
     display: flex;
@@ -438,7 +477,18 @@ body{
     width: 95%;
     height: 500px;
   }
+  .experience-square .MuiTypography-h5{
+     font-size: 20px;
+  }
+  .experience-square .MuiTypography-gutterBottom{
+    font-size: 12px;
+ }
   
+ .experience-square  .MuiPaper-root{
+   
+    max-width: 380px;
+  }
+
   
   .projects-main-container{
     padding: 30px 0px 90px 0px;
@@ -518,6 +568,15 @@ body{
   .skills-container {
     width: 100%;
   }
+  .main-skills-container-title h2{
+    padding-left: 30px;
+  }
+  .image-container {
+    background-color: #e9e9eb;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 15px;
+  }
   .contact-square  .MuiTypography-root{
     font-size: 25px !important;
   }
@@ -529,8 +588,30 @@ body{
     width:400px ;
     max-width: 300px;
   }
+  .experience-details h3 {
+    font-size: 26px;
+    color: #fec576;
+    font-weight: 400;
+    margin: 0 !important;
+    padding: 17px 0 17px 30px;
+  }
+  .main-projects-container-title h2{
+    padding-left: 30px;
+  }
+  .main-projects-container-title p{
+    
+    padding-left: 30px;
+    
+  }
   .contact-square {
     width: 90%;
+  }
+  .contact-main-container h2{
+    padding-left: 30px;
+  }
+  .contact-main-container p{
+    
+    padding-left: 30px;
   }
   
   .footer-container{
@@ -560,6 +641,11 @@ body{
   .singleproject-image{
     width:350px;
     height: 250px;
+  }
+  .singleproject-details2{
+    width: 80%;
+    margin: 0 auto;
+    padding:20px 0;
   }
   
 }
@@ -634,5 +720,91 @@ body{
     font-size: 22px;
     padding-left: 30px;
   }
+  .singleproject-details2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0;
+  }
 }
-
+@media screen and (max-width:350px) {
+  .about-square{
+    height: 500px;
+    width: 90%;
+  }
+  .experience-details h3 {
+    font-size: 22px;
+    color: #fec576;
+    font-weight: 400;
+    margin: 0 !important;
+    padding: 20px 0 20px 10px;
+  }
+  .experience-square  .MuiPaper-root{
+    font-size: 22px;
+    max-width: 270px;
+  }
+  .main-skills-container-title h2{
+    font-size: 22px;
+    padding-left: 10px;
+  }
+  .image-container {
+    background-color: #e9e9eb;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 15px;
+  }
+  .main-projects-container-title h2{
+    font-size: 22px;
+    padding-left: 10px;
+    margin: 0 !important;
+  }
+  .main-projects-container-title p{
+    font-size: 24px;
+    padding-left: 10px;
+    
+  }
+  .contact-main-container h2{
+    padding-left: 10px;
+    font-size: 22px;
+  }
+  .contact-main-container p{
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  .footer-text{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    font-family: serif;
+  }
+  
+  .footer-logo{
+    font-size: 18px;
+    color: #fec576 ;
+  }
+  .footer-text1{
+  font-size: 10px;
+  }
+  .footer-container-link{
+    padding: 0;
+  }
+  .footer-link{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+    padding: 5px;
+   }
+   .singleproject-details2{
+    width: 90%;
+    margin: 0 auto;
+    padding:20px 0;
+  }
+  .singleproject-image{
+    width:250px;
+    height: 175px;
+  }
+  .IMAGE-CONTAINER{
+    width:80%;
+    gap: 20px;
+  }
+}
