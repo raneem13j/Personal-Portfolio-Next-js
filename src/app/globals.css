@@ -434,6 +434,10 @@ body{
     height: 400px;
     width: 400px;
   }
+  .about-square{
+    width: 95%;
+    height: 500px;
+  }
   
   
   .projects-main-container{

@@ -6,6 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineMenu } from "react-icons/ai";
 import { saveAs } from "file-saver";
 
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
@@ -44,12 +45,12 @@ const Navbar = () => {
       </Link>
       <div className={Styles.menuIcon}>
         <div className={Styles.navLinks}>
-          <Link href="/">Home</Link>
-          <Link href="/#about">About</Link>
-          <Link href="/#skills">Skills</Link>
-          <Link href="/#projects">Projects</Link>
-          <Link href="/#experience">Experience</Link>
-          <Link href="/#contact">Contact</Link>
+          <a href="/">Home</a>
+          <a href="/#about" >About</a>
+          <a href="/#skills">Skills</a>
+          <a href="/#projects" >Projects</a>
+          <a href="/#experience" >Experience</a>
+          <a href="/#contact" >Contact</a>
           <button className={Styles.button} onClick={saveFile}>
             Download CV
           </button>
@@ -64,48 +65,48 @@ const Navbar = () => {
             }`}
           >
             <div className={Styles.navlinkMobile}>
-              <Link
+              <a
                 href="/"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 Home
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/#about"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 About
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/#skills"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 Skills
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/#projects"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 Projects
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/#experience"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 Experience
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/#contact"
                 className={Styles.navlinkMobilefont}
                 onClick={handleNavLinkClick}
               >
                 Contact
-              </Link>
+              </a>
 
               <button className={Styles.button} onClick={saveFile}>
                 Download CV
@@ -119,10 +120,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// <ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink>
-//           <ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink>
-//           <ScrollLink to="skills" smooth={true} duration={500}>Skills</ScrollLink>
-//           <ScrollLink to="projects" smooth={true} duration={500}>Projects</ScrollLink>
-//           <ScrollLink to="experience" smooth={true} duration={500}>Experience</ScrollLink>
-//           <ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink>

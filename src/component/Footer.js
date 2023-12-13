@@ -29,24 +29,24 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-container-link">
-        <Link href="/" className="footer-link">
+        <a href="/" className="footer-link">
           Home
-        </Link>
-        <Link href="/#about" className="footer-link">
+        </a>
+        <a href="#about" className="footer-link">
           About
-        </Link>
-        <Link href="/#skills" className="footer-link">
+        </a>
+        <a href="#skills" className="footer-link">
           Skills
-        </Link>
-        <Link href="/#projects" className="footer-link">
+        </a>
+        <a href="#projects" className="footer-link">
           Projects
-        </Link>
-        <Link href="/#experience" className="footer-link">
+        </a>
+        <a href="#experience" className="footer-link">
           Experience
-        </Link>
-        <Link href="/#contact" className="footer-link">
+        </a>
+        <a href="#contact" className="footer-link">
           Contact
-        </Link>
+        </a>
       </div>
       <p className="footer-text1"> &copy; 2023 Raneem Al Jamal Portfolio</p>
     </div>

@@ -1,6 +1,5 @@
 "use client"
 import React, { use } from 'react';
-import { useSearchParams } from 'next/navigation'
 import ProjectDetails from "@/component/ProjectDetails";
 
 
@@ -73,10 +72,7 @@ async function getProjectById(id) {
 
 
 export default function ProjectDetail({params, searchParams}) {
-  console.log(params);
-
   const productId = params.projectId
-  console.log(productId);
 // Check if id is available before using it
 const projectSelected = use(getProjectById(productId));
 return (
