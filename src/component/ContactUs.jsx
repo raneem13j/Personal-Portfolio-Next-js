@@ -26,7 +26,7 @@ const ContactUs = () =>{
             id: "3",
             icon: <><FaInstagram/></>,
             link: "https://www.instagram.com/ranemjamal/",
-            social: "Instegram"
+            social: "Instagram"
         },
         {
             id: "4",
